@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>exitgraph</title>
+<link rel="stylesheet" href="exitstory.css">
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<body>
+<div id="container">
+
+<canvas id="2021" style="height: 385px; width: 100%; max-width: 1708px;"></canvas>
+
+<div id="overlay">
+<span class="title">Exit Strategy</span><span class="arrow_left"><a href="2020.html">&lt;&lt;</a></span>
+<span class="arrow_right"><a href="2022.html">&gt;&gt;</a></span><span class="subtitle">EVE Online</span>
+<br />
+<span class="patch buffer normal"><a href="https://www.eveonline.com/news/view/patch-notes-version-19-01" target="_blank">Marauder DPS</a></span>
+<span class="patch buffer normal"><a href="https://www.eveonline.com/news/view/patch-notes-version-19-02" target="_blank">Multiple Clones</a></span>
+<span class="patch buffer normal"><br /></span>
+<span class="patch buffer normal"><a href="https://www.eveonline.com/news/view/patch-notes-version-19-04" target="_blank">Nullifiers</a></span>
+<span class="patch buffer normal"><a href="https://www.eveonline.com/news/view/patch-notes-version-19-05" target="_blank">Conduits</a></span>
+<span class="patch buffer normal"><br /></span>
+<span class="patch buffer normal"><a href="https://www.eveonline.com/news/view/patch-notes-version-20-07" target="_blank">T3 Skill Loss</a></span>
+<span class="patch buffer normal"><br /></span>
+<span class="patch buffer normal"><br /></span>
+<span class="patch buffer normal"><br /></span>
+<span class="patch buffer normal"><br /></span>
+<br />
+<span class="patch normal">v</span>
+<span class="patch normal">v</span>
+<span class="patch normal"><br /></span>
+<span class="patch normal">v</span>
+<span class="patch normal">v</span>
+<span class="patch normal"><br /></span>
+<span class="patch normal">v</span>
+<span class="patch normal"><br /></span>
+<span class="patch normal"><br /></span>
+<span class="patch normal"><br /></span>
+<span class="patch normal"><br /></span>
+</div>
+
+<div id="tables">
+<br />
+<table>
+
+<tr><td colspan="25"><div class="line"></div></td></tr>
+<tr>
+<td class="left">Top Character&nbsp;&nbsp;</td>
+<td class="logo"><a href="https://zkillboard.com/character/2113887930/corporation/98380820/year/2021/month/1/" target="_blank">
+<img src="images\p_rusk.jpg" alt="Rusk Valhalla" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Rusk Valhalla <span class="darker">(284)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/94914644/corporation/98380820/year/2021/month/2/" target="_blank">
+<img src="images\p_sin.jpg" alt="sin Alarma" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;sin Alarma <span class="darker">(174)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/94914644/corporation/98380820/year/2021/month/3/" target="_blank">
+<img src="images\p_sin.jpg" alt="sin Alarma" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;sin Alarma <span class="darker">(191)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/94914644/corporation/98380820/year/2021/month/4/" target="_blank">
+<img src="images\p_sin.jpg" alt="sin Alarma" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;sin Alarma <span class="darker">(252)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/94914644/corporation/98380820/year/2021/month/5/" target="_blank">
+<img src="images\p_sin.jpg" alt="sin Alarma" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;sin Alarma <span class="darker">(200)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/2113538483/corporation/98380820/year/2021/month/6/" target="_blank">
+<img src="images\p_shimeo.jpg" alt="Shimeo Tokila" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Shimeo <span class="darker">(175)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/2113227650/corporation/98380820/year/2021/month/7/" target="_blank">
+<img src="images\p_hydrugion.jpg" alt="Hydrugion Hydra" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Hydrugion <span class="darker">(201)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/1213261663/corporation/98380820/year/2021/month/8/" target="_blank">
+<img src="images\p_ludi.jpg" alt="Ludi Burek" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Ludi Burek <span class="darker">(324)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/2113538483/corporation/98380820/year/2021/month/9/" target="_blank">
+<img src="images\p_shimeo.jpg" alt="Shimeo Tokila" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Shimeo <span class="darker">(180)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/2115776696/corporation/98380820/year/2021/month/10/" target="_blank">
+<img src="images\p_slay.jpg" alt="Slay 420p" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Slay 420p <span class="darker">(135)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/2118980004/corporation/98380820/year/2021/month/11/" target="_blank">
+<img src="images\p_jet4k1.jpg" alt="JET4K1" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;JET4K1 <span class="darker">(245)</span></td>
+<td class="logo"><a href="https://zkillboard.com/character/2118980004/corporation/98380820/year/2021/month/12/" target="_blank">
+<img src="images\p_jet4k1.jpg" alt="JET4K1" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;JET4K1 <span class="darker">(330)</span></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left">Top Ship&nbsp;&nbsp;</td>
+<td class="logo"><a href="https://zkillboard.com/ship/22448/corporation/98380820/year/2021/month/1/" target="_blank">
+<img src="images\s_absolution.jpg" alt="Absolution" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Absolution <span class="darker">(370)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/49711/corporation/98380820/year/2021/month/2/" target="_blank">
+<img src="images\s_drekavac.jpg" alt="Drekavac" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Drekavac <span class="darker">(133)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/29986/corporation/98380820/year/2021/month/3/" target="_blank">
+<img src="images\s_legion.jpg" alt="Legion" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Legion <span class="darker">(159)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/49711/corporation/98380820/year/2021/month/4/" target="_blank">
+<img src="images\s_drekavac.jpg" alt="Drekavac" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Drekavac <span class="darker">(344)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/49711/corporation/98380820/year/2021/month/5/" target="_blank">
+<img src="images\s_drekavac.jpg" alt="Drekavac" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Drekavac <span class="darker">(169)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/49711/corporation/98380820/year/2021/month/6/" target="_blank">
+<img src="images\s_drekavac.jpg" alt="Drekavac" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Drekavac <span class="darker">(196)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/49711/corporation/98380820/year/2021/month/7/" target="_blank">
+<img src="images\s_drekavac.jpg" alt="Drekavac" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Drekavac <span class="darker">(237)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/49711/corporation/98380820/year/2021/month/8/" target="_blank">
+<img src="images\s_drekavac.jpg" alt="Drekavac" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Drekavac <span class="darker">(151)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/12032/corporation/98380820/year/2021/month/9/" target="_blank">
+<img src="images\s_manticore.jpg" alt="Manticore" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Manticore <span class="darker">(191)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/12038/corporation/98380820/year/2021/month/10/" target="_blank">
+<img src="images\s_purifier.jpg" alt="Purifier" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Purifier <span class="darker">(110)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/29990/corporation/98380820/year/2021/month/11/" target="_blank">
+<img src="images\s_loki.jpg" alt="Loki" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Loki <span class="darker">(172)</span></td>
+<td class="logo"><a href="https://zkillboard.com/ship/47270/corporation/98380820/year/2021/month/12/" target="_blank">
+<img src="images\s_vedmak.jpg" alt="Vedmak " style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;Vedmak <span class="darker">(311)</span></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left">Biggest Kill&nbsp;&nbsp;</td>
+<td class="logo"><a href="https://zkillboard.com/kill/89818762/" target="_blank"><img src="images\s_vehement.jpg" alt="Vehement" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Wrong Hole.">&lt;4BOB&gt;</abbr> <span class="darker">(64.7)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/90509430/" target="_blank"><img src="images\s_nyx.jpg" alt="Nyx" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="WE FORM V0LTA">&lt;GLHF&gt;</abbr> <span class="darker">(32.1)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/91781862/" target="_blank"><img src="images\s_nyx.jpg" alt="Nyx" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Fraternity.">&lt;FRT&gt;</abbr> <span class="darker">(31.4)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/91948386/" target="_blank"><img src="images\s_ark.jpg" alt="Ark" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Test Alliance Please Ignore">&lt;TEST&gt;</abbr> <span class="darker">(11.8)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/92519475/" target="_blank"><img src="images\s_rorqual.jpg" alt="Rorqual" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Fraternity.">&lt;FRT&gt;</abbr> <span class="darker">(11.2)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/93204945/" target="_blank"><img src="images\s_naglfar.jpg" alt="Naglfar" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Ocean Drive Miami">[OCDRM]</abbr> <span class="darker">(8.5)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/93926059/" target="_blank"><img src="images\s_naglfar.jpg" alt="Naglfar" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="The Initiative.">&lt;INIT.&gt;</abbr> <span class="darker">(6.2)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/94692803/" target="_blank"><img src="images\s_revelation.jpg" alt="Revelation" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Fantoma Universe">[HOLLY]</abbr> <span class="darker">(8.8)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/95057709/" target="_blank"><img src="images\s_hel.jpg" alt="Hel" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Goonswarm Federation">&lt;CONDI&gt;</abbr> <span class="darker">(22.0)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/95589010/" target="_blank"><img src="images\s_marshal.jpg" alt="Marshal" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Test Alliance Please Ignore">&lt;TEST&gt;</abbr> <span class="darker">(9.4)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/96667842/" target="_blank"><img src="images\s_rorqual.jpg" alt="Rorqual" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Pandemic Horde">&lt;REKTD&gt;</abbr> <span class="darker">(8.4)</span></td>
+<td class="logo"><a href="https://zkillboard.com/kill/97056800/" target="_blank"><img src="images\s_rorqual.jpg" alt="Rorqual" style="width: 32px; height: 32px;"></a></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="The Knights of Evermore">&lt;KOE&gt;</abbr> <span class="darker">(9.5)</span></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left ceo">Battle Reports&nbsp;&nbsp;</td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><img src="images\br.png" alt="BR" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;<a href="https://zkillboard.com/br/122308/" target="_blank">39</a></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><img src="images\br.png" alt="BR" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;<a href="https://zkillboard.com/br/149899/" target="_blank">23</a> <span class="darker">+</span> 
+<a href="https://zkillboard.com/br/122721/" target="_blank">41</a></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left">Home&nbsp;&nbsp;</td>
+<td class="logo"><img src="images\h_j151817.jpg" alt="J151817" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;J151817 <span class="darker">(6-5)</span></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><img src="images\h_jJ214739.jpg" alt="J214739" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;J214739 <span class="darker">(2-6-NS)</span></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left">Alliance&nbsp;&nbsp;</td>
+<td class="logo"><img src="images\a_uncha.png" alt="UNCHA" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Unchained Alliance">&lt;UNCHA&gt;</abbr></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><img src="images\a_uncha.png" alt="UNCHA" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Unchained Alliance">&lt;UNCHA&gt;</abbr></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left">CEO&nbsp;&nbsp;</td>
+<td class="logo"><img src="images\p_sin.jpg" alt="sin Alarma" style="width: 32px; height: 32px;"></td>
+<td class="rest">&nbsp;&nbsp;sin Alarma</td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left">Corporations&nbsp;&nbsp;</td>
+<td class="logo"><img src="images\c_exit-.png" alt="EXIT-" style="width: 32px; height:32px;"></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Exit-Strategy">[EXIT-]</abbr></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><img src="images\c_exit-.png" alt="EXIT-" style="width: 32px; height:32px;"></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Exit-Strategy">[EXIT-]</abbr></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr>
+<td class="left"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><img src="images\c_phikl.png" alt="PHIKL" style="width: 32px; height:32px;"></td>
+<td class="rest">&nbsp;&nbsp;<abbr title="Ambivalent Inc">[PHIKL]</abbr></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+<tr>
+<td class="left ceo">Media&nbsp;&nbsp;</td>
+<td colspan="2"><span class="media"><a href="https://www.youtube.com/watch?v=BPYKJGIAINE" target="_blank""><abbr title="[Eve-Online] The Eviction of Wronghole - edited">
+<img src="images\yt.png" alt="YouTube" style="width: 32px; height: 22px;" class="yt hover"></abbr></a></span>
+<span class="media"><a href="https://www.youtube.com/watch?v=h4NdSdGmezc" target="_blank""><abbr title="[Eve-Online] Uncut Eviction of Wronghole with Battle Comms">
+<img src="images\yt.png" alt="YouTube" style="width: 32px; height: 22px;" class="yt hover"></abbr></a></span></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td colspan="2"><span class="media"><a href="https://www.youtube.com/watch?v=ODxKL7K8JSY" target="_blank""><abbr title="Hero Scram">
+<img src="images\yt.png" alt="YouTube" style="width: 32px; height: 22px;" class="yt hover"></abbr></a></span>
+<span class="media"><a href="https://www.youtube.com/watch?v=Z5mcsjH_BtA" target="_blank""><abbr title="Emptying the crab trap">
+<img src="images\yt.png" alt="YouTube" style="width: 32px; height: 22px;" class="yt hover"></abbr></a></span></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+<td class="logo"><br /></td>
+<td class="rest"><br /></td>
+</tr>
+<tr><td colspan="25"><div class="line"></div></td></tr>
+
+</table>
+</div>
+</div>
+
+<script>
+const xValues = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const yValues = [341.90,208.46,297.36,357.74,281.86,335.45,187.59,292.77,436.32,214.59,241.49,318.87];
+const wValues = [307.80,143.61,163.81,286.40,196.11,170.80,137.64,182.46,69.78,75.68,81.26,144.71];
+
+new Chart("2021", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      label: 'ISK Destroyed',
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "rgba(0, 128, 0, 1.0)",
+      borderColor: "rgba(0, 128, 0 , 0.5)",
+      data: yValues
+    },{
+      label: 'w-space',
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "rgba(217, 141, 0, 1.0)",
+      borderColor: "rgba(217, 141, 0, 0.4)",
+      data: wValues
+    }]
+  },
+  options: {
+    legend: {
+      display: true,
+      labels: {fontColor: "rgba(200, 200, 200, 1.0)"}
+    },
+    scales: {
+      yAxes: [{ticks: {min: 0, max:600, fontColor: "rgba(125, 125, 125, 1.0)"}}],
+      xAxes: [{ticks: {fontColor: "rgba(125, 125, 125, 1.0)"}}]
+    },
+    title: {
+      display: true,
+      text: "2021",
+      fontSize: 24,
+      fontColor: "rgba(200, 200, 200, 1.0)"
+    }
+  }
+});
+</script>
+
+</body>
+</html>
